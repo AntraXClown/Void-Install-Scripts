@@ -7,6 +7,7 @@ pause() {
 echo "Installing applications and drivers..."
 sudo xbps-install unzip wget curl nfs-utils sv-netmount mesa-dri xorg-minimal \
   vulkan-loader mesa-vulkan-radeon mesa-vaapi mesa-vdpau void-repo-nonfree dbus seatd
+vsv
 
 pause
 
