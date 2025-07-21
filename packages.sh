@@ -3,78 +3,57 @@ PACKAGES=(
   ##########################################################################################
   # Themes, Cursors and Fonts
   ##########################################################################################
-  arc-darkest-theme-git numix-gtk-theme-git papirus-icon-theme
-  ttf-hack-nerd awesome-terminal-fonts noto-fonts noto-fonts-extra
+  arc-theme arc-icon-theme numix-themes papirus-icon-theme papirus-folders
+  font-awesome6 font-awesome5 noto-fonts-ttf noto-fonts-ttf-extra
   noto-fonts-emoji noto-fonts-cjk vimix-cursors otf-font-awesome
-  ttf-nerd-fonts-symbols-mono ttf-cascadia-code-nerd
-  ttf-font-awesome ttf-jetbrains-mono-nerd ttf-meslo-nerd ttf-ubuntu-mono-nerd
-  ttf-dejavu ttf-liberation adobe-source-sans-fonts ttf-droid
-  ttf-firacode-nerd polkit-kde-agent
+  dejavu-fonts-ttf liberation-fonts-ttf font-adobe-source-sans-pro-v2 fonts-droid-ttf
   ##########################################################################################
   # Utils
   ##########################################################################################
-  a2ln eza fastfetch kitty fd gdu gimp-git jamesdsp less mpv nmap
-  qalculate-gtk qbittorrent ueberzugpp vlc cronie
-  blueberry-wayland swappy grim wl-clipboard slurp copyq duf
-  gdu bat fuzzel waybar nwg-look imagemagick swaync yt-dlp kdenlive
-  telegram-desktop dosfstools firefox-developer-edition pavucontrol-qt
-  evince network-manager-applet net-tools btop wget 7zip stow
-  entr ristretto man-db man-pages tldr cava rsync swaybg swayidle
-  legcord nfs-utils xorg-xhost kvantum gtk4-layer-shell
-  whatsapp-for-linux ethtool reflector calibre
+  eza fastfetch kitty kitty-shell-integration kitty-terminfo fd gdu gimp-devel 
+  less mpv nmap qalculate-gtk qbittorrent ueberzug vlc cronie
+  swappy grim wl-clipboard slurp CopyQ duf
+  bat fuzzel Waybar nwg-look ImageMagick yt-dlp kdenlive
+  telegram-desktop dosfstools pavucontrol-qt
+  evince net-tools btop wget 7zip stow
+  entr ristretto man-db man-pages tldr cava swaybg swayidle
+  kvantum gtk4-layer-shell ethtool calibre
+  polkit-kde-agent
   ##########################################################################################
   # niri
   ##########################################################################################
-  niri xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring
+  niri xdg-desktop-portal-gtk xdg-desktop-portal-gnome
   xwayland-satellite
-  ##########################################################################################
-  # Minhas apps
-  ##########################################################################################
-  niripwmenu pypi2aur
   ##########################################################################################
   # zsh
   ##########################################################################################
-  zsh zoxide the_silver_searcher yazi-git zsh-autocomplete zsh-autosuggestions
+  zsh zoxide the_silver_searcher yazi zsh-completions zsh-autosuggestions
   ##########################################################################################
-  # Bluetooth
-  ##########################################################################################
-  bluez bluez-utils
-  ##########################################################################################
-  # Printer
-  ##########################################################################################
-  cups cups-browsed
   ##########################################################################################
   # mouse mx master 3s
   ##########################################################################################
-  solaar
+  Solaar
   ##########################################################################################
   # neovim
   ##########################################################################################
-  neovim-git lazygit luarocks shfmt pyright
-  ripgrep fzf prettier lolcat jp2a fish lynx tectonic
-  composer php github-cli python-pygobject-stubs lua51
-  julia ast-grep viu
+  neovim lazygit luarocks shfmt pyright
+  ripgrep fzf jp2a fish-shell lynx github-cli lua51 ast-grep viu
   ##########################################################################################
   # nemo filemanager
   ##########################################################################################
   nemo nemo-audio-tab nemo-emblems nemo-fileroller nemo-image-converter
-  nemo-pastebin nemo-preview nemo-python nemo-seahorse
-  nemo-share nemo-compare nemo-media-columns
-  nemo-mediainfo-tab nemo-copypath nemo-webp-git
+  nemo-preview nemo-python
   ##########################################################################################
   # Development
   ##########################################################################################
-  cmake visual-studio-code-bin
-  # Drivers
-  vulkan-mesa-layers vulkan-radeon
+  cmake
   ##########################################################################################
   # Python
   ##########################################################################################
-  uv python-pynvim python-virtualenv python-rich python-inquirerpy
-  python-black python-pip python-pyfiglet
+  uv python3-virtualenv python3-rich python3-pip python3-pyfiglet
   ##########################################################################################
   # Android Development
   ##########################################################################################
-  jdk-openjdk
+  openjdk
   ##########################################################################################
 )
