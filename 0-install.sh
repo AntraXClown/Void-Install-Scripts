@@ -6,8 +6,8 @@ pause() {
 
 echo "Installing applications and drivers..."
 sudo xbps-install unzip wget curl nfs-utils sv-netmount mesa-dri xorg-minimal \
-  vulkan-loader mesa-vulkan-radeon mesa-vaapi mesa-vdpau void-repo-nonfree dbus seatd
-vsv
+  vulkan-loader mesa-vulkan-radeon mesa-vaapi mesa-vdpau void-repo-nonfree dbus seatd vsv \
+  NetworkManager network-manager-applet
 
 pause
 
@@ -40,3 +40,17 @@ echo "Install nerd-fonts....."
 ./nerd-fonts.sh Meslo
 ./nerd-fonts.sh UbuntuMono
 ./nerd-fonts.sh FiraCode
+
+
+pause
+
+
+echo "Disable dhcpcd..."
+sudo sv stop dhcpcd
+sudo rm /var/service/dhcpcd
+
+echo "Enable Network Manager..."
+sudo ln -s /etc/sv/NetworkManager /var/service
+
+
+
