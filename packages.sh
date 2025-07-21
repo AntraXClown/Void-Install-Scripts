@@ -5,7 +5,7 @@ PACKAGES=(
   ##########################################################################################
   arc-theme arc-icon-theme numix-themes papirus-icon-theme papirus-folders
   font-awesome6 font-awesome5 noto-fonts-ttf noto-fonts-ttf-extra
-  noto-fonts-emoji noto-fonts-cjk vimix-cursors otf-font-awesome
+  noto-fonts-emoji noto-fonts-cjk
   dejavu-fonts-ttf liberation-fonts-ttf font-adobe-source-sans-pro-v2 fonts-droid-ttf
   ##########################################################################################
   # Utils
