@@ -19,7 +19,7 @@ PACKAGES=(
   evince net-tools btop wget 7zip stow
   entr ristretto man-db man-pages tldr cava swaybg swayidle
   kvantum gtk4-layer-shell ethtool calibre
-  polkit-kde-agent
+  polkit-kde-agent alacritty
   ##########################################################################################
   # niri
   ##########################################################################################
