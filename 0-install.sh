@@ -27,6 +27,10 @@ sudo ln -s /etc/sv/rpcbind /var/service
 sudo ln -s /etc/sv/netmount /var/service
 
 pause
+echo "Install Packages..."
+source packages.sh
+
+sudo xbps-install -S "${PACKAGES[@]}"
 
 echo "Install nerd-fonts....."
 ./nerd-fonts.sh Hack
@@ -35,9 +39,3 @@ echo "Install nerd-fonts....."
 ./nerd-fonts.sh Meslo
 ./nerd-fonts.sh UbuntuMono
 ./nerd-fonts.sh FiraCode
-
-pause
-echo "Install Packages..."
-source packages.sh
-
-sudo xbps-install -S "${PACKAGES[@]}"
