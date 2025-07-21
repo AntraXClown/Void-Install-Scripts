@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-./nerd-fonts.sh Hack CascadiaCode JetBrainsMono Meslo UbuntuMono FiraCode
+sudo xbps-install unzip
+./nerd-fonts.sh Hack 
+./nerd-fonts.sh CascadiaCode 
+./nerd-fonts.sh JetBrainsMono 
+./nerd-fonts.sh Meslo 
+./nerd-fonts.sh UbuntuMono 
+./nerd-fonts.sh FiraCode
