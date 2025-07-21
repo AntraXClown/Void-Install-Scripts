@@ -1,0 +1,7 @@
+0. Become Sudo no pass
+1. Atualizar o xbps
+$ sudo xbps-install -S xbps
+2. Atualizar o xbps-install
+$ sudo xbps-install -Syu
+3. Adiciona trim periódico aos discos
+3.1 Verifica 
