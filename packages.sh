@@ -11,7 +11,7 @@ PACKAGES=(
   ##########################################################################################
   # Utils
   ##########################################################################################
-  eza fastfetch kitty kitty-shell-integration kitty-terminfo fd gdu gimp-devel 
+  eza fastfetch kitty kitty-shell-integration kitty-terminfo fd gdu gimp-devel
   less mpv nmap qalculate-gtk qbittorrent ueberzug vlc cronie
   swappy grim wl-clipboard slurp CopyQ duf
   bat fuzzel Waybar nwg-look ImageMagick yt-dlp kdenlive
@@ -19,7 +19,7 @@ PACKAGES=(
   evince net-tools btop wget 7zip stow
   entr ristretto man-db man-pages tldr cava swaybg swayidle
   kvantum gtk4-layer-shell ethtool calibre
-  polkit-kde-agent alacritty
+  polkit-kde-agent alacritty xfce4 firefox
   ##########################################################################################
   # niri
   ##########################################################################################
