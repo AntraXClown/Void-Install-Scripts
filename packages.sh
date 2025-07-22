@@ -7,7 +7,7 @@ PACKAGES=(
   swappy wl-clipboard slurp CopyQ duf bat kdenlive
   telegram-desktop evince net-tools btop 7zip stow
   entr ristretto man-db tldr cava gtk4-layer-shell calibre
-  alacritty firefox base-devel
+  alacritty firefox base-devel pavucontrol-qt polkit-kde-agent
   ##########################################################################################
   # zsh
   ##########################################################################################
