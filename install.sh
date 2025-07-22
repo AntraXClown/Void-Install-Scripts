@@ -45,6 +45,3 @@ echo "Install nerd-fonts....."
 
 
 
-
-
-

@@ -1,30 +1,13 @@
 e/usr/bin/env bash
 PACKAGES=(
   ##########################################################################################
-  # Themes, Cursors and Fonts
-  ##########################################################################################
-  arc-theme arc-icon-theme papirus-icon-theme papirus-folders
-  font-awesome6 font-awesome5 noto-fonts-ttf noto-fonts-ttf-extra
-  noto-fonts-emoji noto-fonts-cjk
-  dejavu-fonts-ttf liberation-fonts-ttf font-adobe-source-sans-pro-v2 fonts-droid-ttf
-  adwaita-plus archlabs-themes faenza-icon-theme
-  ##########################################################################################
   # Utils
   ##########################################################################################
-  eza fastfetch kitty kitty-shell-integration kitty-terminfo fd gdu gimp-devel
-  less mpv nmap qalculate-gtk qbittorrent ueberzug vlc cronie
-  swappy grim wl-clipboard slurp CopyQ duf
-  bat fuzzel Waybar nwg-look ImageMagick yt-dlp kdenlive
-  telegram-desktop dosfstools pavucontrol-qt
-  evince net-tools btop wget 7zip stow
-  entr ristretto man-db man-pages tldr cava swaybg swayidle
-  kvantum gtk4-layer-shell ethtool calibre
-  polkit-kde-agent alacritty xfce4 firefox
-  ##########################################################################################
-  # niri
-  ##########################################################################################
-  niri xdg-desktop-portal-gtk xdg-desktop-portal-gnome
-  xwayland-satellite
+  eza fd gdu gimp-devel nmap qalculate-gtk qbittorrent ueberzug vlc cronie
+  swappy wl-clipboard slurp CopyQ duf bat ImageMagick yt-dlp kdenlive
+  telegram-desktop dosfstools evince net-tools btop 7zip stow
+  entr ristretto man-db man-pages tldr cava gtk4-layer-shell ethtool calibre
+  alacrittyi firefox
   ##########################################################################################
   # zsh
   ##########################################################################################
