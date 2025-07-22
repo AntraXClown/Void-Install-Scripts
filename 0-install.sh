@@ -21,6 +21,9 @@ sudo chown -R antrax:antrax /NFS
 echo "Write /etc/fstab"
 echo "192.168.1.24:/ /NFS nfs rw,hard 0 0" | sudo tee -a /etc/fstab
 
+# Secondary
+echo "UUID=d03e61af-12c6-46c7-9ac6-216a8661ff93 /home/antrax/Secondary ext4 defaults,noatime 0 2" | sudo tee -a /etc/fstab
+
 pause
 
 echo "Enable services statd, rpcbind, dbus and seatd and netmount..."
@@ -41,8 +44,6 @@ echo "Install nerd-fonts....."
 ./nerd-fonts.sh Meslo
 ./nerd-fonts.sh UbuntuMono
 ./nerd-fonts.sh FiraCode
-
-
 
 pause
 
