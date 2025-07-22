@@ -1,13 +1,13 @@
-e/usr/bin/env bash
+#!/usr/bin/bash
 PACKAGES=(
   ##########################################################################################
   # Utils
   ##########################################################################################
   eza fd gdu gimp-devel nmap qalculate-gtk qbittorrent ueberzug vlc cronie
-  swappy wl-clipboard slurp CopyQ duf bat ImageMagick yt-dlp kdenlive
-  telegram-desktop dosfstools evince net-tools btop 7zip stow
-  entr ristretto man-db man-pages tldr cava gtk4-layer-shell ethtool calibre
-  alacrittyi firefox
+  swappy wl-clipboard slurp CopyQ duf bat kdenlive
+  telegram-desktop evince net-tools btop 7zip stow
+  entr ristretto man-db tldr cava gtk4-layer-shell calibre
+  alacritty firefox
   ##########################################################################################
   # zsh
   ##########################################################################################
