@@ -6,6 +6,10 @@ pause() {
 
 echo "Installing applications and drivers..."
 sudo xbps-install nfs-utils sv-netmount vsv
+pause
+
+echo "Disable elogind..."
+sudo rm /var/service/elogind
 
 pause
 
