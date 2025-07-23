@@ -10,6 +10,9 @@ PACKAGES=(
   alacritty firefox base-devel pavucontrol-qt polkit-kde-agent
   obs
   ##########################################################################################
+  # void Linux specific
+  xtools
+  ##########################################################################################
   # zsh
   ##########################################################################################
   zsh zoxide the_silver_searcher yazi zsh-completions zsh-autosuggestions
