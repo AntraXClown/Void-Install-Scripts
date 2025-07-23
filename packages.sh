@@ -8,6 +8,7 @@ PACKAGES=(
   telegram-desktop evince net-tools btop 7zip stow
   entr ristretto man-db tldr cava gtk4-layer-shell calibre
   alacritty firefox base-devel pavucontrol-qt polkit-kde-agent
+  obs
   ##########################################################################################
   # zsh
   ##########################################################################################
