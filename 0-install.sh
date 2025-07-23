@@ -52,3 +52,6 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 echo "Enable cronie..."
 sudo ln -s /etc/sv/cronie /var/service
+
+echo "Install Print Support..."
+sudo ln -s /etc/sv/cupsd /var/service
