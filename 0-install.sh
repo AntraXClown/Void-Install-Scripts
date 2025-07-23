@@ -4,11 +4,6 @@ pause() {
   read -n 1 -s -r -p "Pressione qualquer tecla para continuar..."
 }
 
-echo "Disabling elogind...."
-
-sudo sv stop elogind
-sudo rm /var/service/elogind
-
 echo "Installing applications and drivers..."
 sudo xbps-install nfs-utils sv-netmount vsv
 
@@ -23,6 +18,7 @@ echo "192.168.1.24:/ /NFS nfs rw,hard 0 0" | sudo tee -a /etc/fstab
 
 # Secondary
 echo "UUID=d03e61af-12c6-46c7-9ac6-216a8661ff93 /home/antrax/Secondary ext4 defaults,noatime 0 2" | sudo tee -a /etc/fstab
+mkdir ~/Secondary
 
 pause
 
